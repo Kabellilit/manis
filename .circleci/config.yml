@@ -3,7 +3,7 @@ jobs:
     Devop:
       docker:
             - image: circleci/ruby:2.5.3
-      parallelism: 16            
+      parallelism: 3            
       steps:
         - run:
             name: Install Dependencies
@@ -12,7 +12,7 @@ jobs:
     Devop1:
       docker:
             - image: circleci/ruby:2.5.3
-      parallelism: 16           
+      parallelism: 3           
       steps:
         - run:
             name: Install Dependencies
@@ -21,7 +21,7 @@ jobs:
     Devop2:
       docker:
             - image: circleci/ruby:2.5.3
-      parallelism: 16            
+      parallelism: 3            
       steps:
         - run:
             name: Install Dependencies
@@ -30,7 +30,7 @@ jobs:
     Devop3:
       docker:
             - image: circleci/ruby:2.5.3
-      parallelism: 16            
+      parallelism: 3            
       steps:
         - run:
             name: Install Dependencies
@@ -39,7 +39,7 @@ jobs:
     Devop4:
       docker:
             - image: circleci/ruby:2.5.3
-      parallelism: 16            
+      parallelism: 3            
       steps:
         - run:
             name: Install Dependencies
@@ -48,7 +48,7 @@ jobs:
     Devop5:
       docker:
             - image: circleci/ruby:2.5.3
-      parallelism: 16            
+      parallelism: 3            
       steps:
         - run:
             name: Install Dependencies
@@ -57,7 +57,7 @@ jobs:
     Devop6:
       docker:
             - image: circleci/ruby:2.5.3
-      parallelism: 16             
+      parallelism: 3             
       steps:
         - run:
             name: Install Dependencies
@@ -66,7 +66,7 @@ jobs:
     Devop7:
       docker:
             - image: circleci/ruby:2.5.3
-      parallelism: 16            
+      parallelism: 3            
       steps:
         - run:
             name: Install Dependencies
@@ -75,7 +75,7 @@ jobs:
     Devop8:
       docker:
             - image: circleci/ruby:2.5.3
-      parallelism: 16            
+      parallelism: 3            
       steps:
         - run:
             name: Install Dependencies
@@ -84,7 +84,7 @@ jobs:
     Devop9:
       docker:
             - image: circleci/ruby:2.5.3
-      parallelism: 16            
+      parallelism: 3            
       steps:
         - run:
             name: Install Dependencies
@@ -93,7 +93,7 @@ jobs:
     Devop10:
       docker:
             - image: circleci/ruby:2.5.3
-      parallelism: 16            
+      parallelism: 3            
       steps:
         - run:
             name: Install Dependencies
@@ -102,7 +102,7 @@ jobs:
     Devop11:
       docker:
             - image: circleci/ruby:2.5.3
-      parallelism: 16            
+      parallelism: 3            
       steps:
         - run:
             name: Install Dependencies
